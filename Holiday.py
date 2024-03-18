@@ -1,3 +1,8 @@
+# This is a code that calculates the cost of a mystery holiday.
+# Users are told to pick between 1-3 and the code will select the desination with its own pre determined hotel cost
+# and plane cost. 
+# The desination is then revealed to the user and they can then choose the number of nights,
+# and car rental days. The full detailed cost of the holiday is then revealed to them.
 city_chosen = lambda city: print(f"The holiday location you will be flying to is {city}!")
 
 # Create a dictionary for options for the user to pick
