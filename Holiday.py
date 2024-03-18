@@ -59,7 +59,15 @@ def car_rental(day, city):
 
     total = day * car
     return total
-
+while True:
+        try:
+            rental_days = int(input("Please enter how many days you would like to hire a car: "))
+            if rental_days < 0:
+                print("Please enter a non-negative number of days.")
+            else:
+                break
+        except ValueError:
+            print("Invalid input. Please enter a valid number of days.")
 
 #print(car_rental(rental_days, city_flight))
 
